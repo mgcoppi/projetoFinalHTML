@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> 
+    
+body {
+    margin:0;
+}
+
+.menu-superior {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.menu-superior-botoes a {
+    float: left;
+    margin: 10px 35px;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+    
+.menu-superior-pesquisa {
+    float: right;
+    margin-right: 10px;
+}
+
+.menu-superior-pesquisa-campo{
+    width: 280px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 20px;
+    margin-top: 10px;
+}
+
+.menu-superior-pesquisa-icone{
+    color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="menu-superior">
+    <div class="menu-superior-botoes">
+        <a href=""><i class="fa fa-2x fa-home"></i></a> 
+        <a href="#"><i class="fa fa-2x fa-ellipsis-v"></i></a> 
+        <a href="#"><i class="fa fa-2x fa-user-circle"></i></a>
+        <a href="#"><i class="fa fa-2x fa-wrench"></i></a>
+        <a href="#"><i class="fa fa-2x fa-star-o"></i></a>
+        <a href="#"><i class="fa fa-2x fa-folder-open-o"></i></a>
+        <a href="#"><i class="fa fa-2x fa-th-large"></i></a>
+        <a href="#"><i class="fa fa-2x fa-question-circle-o"></i></a>
+        <a href="#"><i class="fa fa-2x fa-bell-o"></i></a>
+    </div>
+    <div class="menu-superior-pesquisa">
+        <form>
+            <input type="text" class="menu-superior-pesquisa-campo" name="search" placeholder="Pesquisa..">
+            <a class="menu-superior-pesquisa-icone"><i class="fa fa-1x fa-search"></i></a>
+        </form>
+    </div>
+
+</div>
+    
+
+</body>
+</html> 
+
