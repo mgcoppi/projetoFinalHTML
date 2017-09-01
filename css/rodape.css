@@ -1,0 +1,17 @@
+.rodape{
+    margin-top:840px;
+    width:100%;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.rodape a{
+    float: left;
+    width: 60px;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+    color: #555;
+    font-size: 36px;
+}  
